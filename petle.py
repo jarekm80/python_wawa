@@ -1,6 +1,6 @@
 liczby=[]
 while True:
-    wejscie = input("wprawadz lizczbe, lub q")
+    wejscie = input("wprawadz liczbe, lub q: ")
     if wejscie == "q":
         break
     liczby.append(int(wejscie))
